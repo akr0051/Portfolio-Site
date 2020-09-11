@@ -51,7 +51,7 @@ button:focus,
 }
 .texas {
   max-width: 300px;
-  margin: 40px;
+  margin: auto;
   clear: both;
   display:flex;
   flex-direction: column;
