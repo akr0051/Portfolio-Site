@@ -8,12 +8,8 @@ body {
   font-size: 16px;
   line-height: 1.6
 }
-:root {
-  --primary-color: #377;
-  ;
-}
 a {
-  color: var(--primary-color);
+  color: #377;
 }
 a:hover, a:focus {
   /* No underlining when hovering over a link */
@@ -31,7 +27,7 @@ a:active {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: var(--primary-color);
+  background-color: #377;
   color: white;
   text-decoration: none;
   padding: 10px;
@@ -55,7 +51,7 @@ button:focus,
 }
 .texas {
   max-width: 300px;
-  margin: 0 auto;
+  margin: 40px;
   clear: both;
   display:flex;
   flex-direction: column;
