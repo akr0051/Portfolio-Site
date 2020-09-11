@@ -30,21 +30,7 @@ a:active {
   /* selected link */
   color: #497;
 }
-.button {
-  border: none;
-  display: inline-block;
-  font-family: inherit;
-  background-color: #377;
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
-  transition: 0.2s opacity;
-}
-button {
+.button, button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -74,7 +60,7 @@ button:focus,
 }
 .texas {
   max-width: 300px;
-  margin: 0 auto;
+  margin: auto;
   clear: both;
   display:-webkit-box;
   display:-ms-flexbox;
@@ -197,3 +183,4 @@ h1 {
 .star {
  -webkit-animation: 4s color-change infinite alternate linear;
          animation: 4s color-change infinite alternate linear;
+}
